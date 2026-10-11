@@ -1,6 +1,5 @@
 # Secrets are BAD!
 *secret*sh
-.env
 .env-aichatbot-secrets
 .env-analytics-job
 .env-elasticsearch-secrets
@@ -105,3 +104,4 @@ windows/sqlite/sqlite3.lib
 crates/desktop/src-tauri/*.dll
 windows_dlls/
 
+config.bat
