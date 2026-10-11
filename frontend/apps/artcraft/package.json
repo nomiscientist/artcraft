@@ -12,9 +12,9 @@
     }
   },
   "scripts": {
-    "build": "vite build",
+    "build": "node init && vite build",
     "preview": "vite preview --port 8080",
-    "dev": "echo 'artcraft' && vite dev",
+    "dev": "node init && echo 'artcraft' && vite dev",
     "production-preview": "echo 'artcraft dev with production preview' && vite build --debug --emptyOutDir --logLevel info && vite preview --port 5173",
     "staging-build": "vite build",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint playground/* .",
